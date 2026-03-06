@@ -1,0 +1,1 @@
+SELECT * from {{ source('staging_data', 'listings') }}

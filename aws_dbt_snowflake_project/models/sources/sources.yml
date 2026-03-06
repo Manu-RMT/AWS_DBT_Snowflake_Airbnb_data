@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: staging_data
+    schema: staging
+    database: AIRBNB_DB
+
+    tables:
+      - name: listings
+      - name: bookings
+      - name: hosts

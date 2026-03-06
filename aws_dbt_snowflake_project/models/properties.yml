@@ -1,0 +1,8 @@
+# modification config pour le répertoire bronze et non tout 
+version: 2
+
+models:
+  - name: 00_bronze
+    description: "Table de staging airbnb"
+    config:
+      materialized: table
