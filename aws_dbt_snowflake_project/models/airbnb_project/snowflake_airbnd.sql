@@ -1,0 +1,1 @@
+SELECT * from AIRBNB_DB.STAGING.listings;
